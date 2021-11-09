@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Access Array Values </h2>
+<p id ="demo"></p>
+
+<script>
+const myJSON= '{"name":"Aditya","age":23 ,"College":["KIET","AKG","ABES"] }';
+const myOBJ =JSON.parse(myJSON);
+
+document.getElementById("demo").innerHTML=myOBJ.College[0];
+</script>
+
+</body>
+</html>
